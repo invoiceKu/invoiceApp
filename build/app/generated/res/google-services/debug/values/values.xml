@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">41618432532-a58io566qtop0bn64v185ptpm3nh3cje.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://kasir-pintar-pro.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">41618432532</string>
+    <string name="google_api_key" translatable="false">AIzaSyA4VpnrIZ_L2eSzBdZ0k0Tx0D5lLh-5gxw</string>
+    <string name="google_app_id" translatable="false">1:41618432532:android:7329418460c4fde5683d01</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA4VpnrIZ_L2eSzBdZ0k0Tx0D5lLh-5gxw</string>
+    <string name="google_storage_bucket" translatable="false">kasir-pintar-pro.appspot.com</string>
+    <string name="project_id" translatable="false">kasir-pintar-pro</string>
+</resources>
