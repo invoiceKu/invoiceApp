@@ -1,0 +1,211 @@
+{
+  "project_info": {
+    "project_number": "41618432532",
+    "firebase_url": "https://kasir-pintar-pro.firebaseio.com",
+    "project_id": "kasir-pintar-pro",
+    "storage_bucket": "kasir-pintar-pro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41618432532:android:9ea5be74b4ced573683d01",
+        "android_client_info": {
+          "package_name": "co.id.kasirpintar.foodmenu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41618432532-7nb1c9ha5jd5t25a6rfi3hlhmmovac5s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.id.kasirpintar.foodmenu",
+            "certificate_hash": "6bd77ebddf8808ef2837ef26a3ee369ae560d18d"
+          }
+        },
+        {
+          "client_id": "41618432532-a58io566qtop0bn64v185ptpm3nh3cje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4VpnrIZ_L2eSzBdZ0k0Tx0D5lLh-5gxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41618432532-7bp42d06pt8tvd22enbgmhcq5l1uuljt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "41618432532-qddkpqr7bc370bqpoo2qe4etmdjrchku.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kasirpintar.kaspinpro"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41618432532:android:e4b19a73fd54a8a8683d01",
+        "android_client_info": {
+          "package_name": "co.id.kasirpintar.kitchen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41618432532-s73l1lj39ahkb92vf5h485drenr7sksv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.id.kasirpintar.kitchen",
+            "certificate_hash": "8fdae6274abc0335d266f645e18e37d1102a6ad4"
+          }
+        },
+        {
+          "client_id": "41618432532-a58io566qtop0bn64v185ptpm3nh3cje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4VpnrIZ_L2eSzBdZ0k0Tx0D5lLh-5gxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41618432532-7bp42d06pt8tvd22enbgmhcq5l1uuljt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "41618432532-qddkpqr7bc370bqpoo2qe4etmdjrchku.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kasirpintar.kaspinpro"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41618432532:android:7329418460c4fde5683d01",
+        "android_client_info": {
+          "package_name": "com.kasirpintar.kasir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41618432532-ml8vg619b9ur291a4fil7toqhlfd6rj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kasirpintar.kasir",
+            "certificate_hash": "39246a0f50e0893ba4c3805c7786d48105d3dae2"
+          }
+        },
+        {
+          "client_id": "41618432532-a58io566qtop0bn64v185ptpm3nh3cje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4VpnrIZ_L2eSzBdZ0k0Tx0D5lLh-5gxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41618432532-7bp42d06pt8tvd22enbgmhcq5l1uuljt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "41618432532-qddkpqr7bc370bqpoo2qe4etmdjrchku.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kasirpintar.kaspinpro"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41618432532:android:81107d8775d2994d",
+        "android_client_info": {
+          "package_name": "org.owline.kasirpintarpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41618432532-31qhukm12dji2f1buhu3f2uopkv2qq38.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.owline.kasirpintarpro",
+            "certificate_hash": "d39e2fc350d42f0faf2941c56ab90b76c28bf433"
+          }
+        },
+        {
+          "client_id": "41618432532-fv4llo4brem5mnnbqifmr6vcrorqm3uh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.owline.kasirpintarpro",
+            "certificate_hash": "2d9f533cc64b4155b65f183af05132be5caeacfd"
+          }
+        },
+        {
+          "client_id": "41618432532-iuukpq66djatdg2bgi9tas0g0gifkjvv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.owline.kasirpintarpro",
+            "certificate_hash": "0f9fc180a212a7597b6075e13304acbe0aee4b82"
+          }
+        },
+        {
+          "client_id": "41618432532-pvs55t91467s17g76vaajhetr4csl25a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.owline.kasirpintarpro",
+            "certificate_hash": "884a38ab17fb1c0f0eb2e75436c2da61f1e551e9"
+          }
+        },
+        {
+          "client_id": "41618432532-a58io566qtop0bn64v185ptpm3nh3cje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4VpnrIZ_L2eSzBdZ0k0Tx0D5lLh-5gxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41618432532-7bp42d06pt8tvd22enbgmhcq5l1uuljt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "41618432532-qddkpqr7bc370bqpoo2qe4etmdjrchku.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kasirpintar.kaspinpro"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
