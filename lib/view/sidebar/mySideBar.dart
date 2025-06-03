@@ -4,46 +4,89 @@ class mySideBar extends StatelessWidget {
   const mySideBar({super.key});
 
   Widget buildDrawerItem(IconData icon, String title, VoidCallback onTap) {
-    return ListTile(
-      leading: Icon(icon),
-      title: Text(title),
-      onTap: onTap,
+    return Expanded(
+      child: InkWell(
+        onTap: onTap,
+        child: Container(
+          width: double.infinity,
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              colors: [Color(0xFF65C3BA), Color(0xFF2F80ED)],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+          ),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(icon, color: Colors.white, size: 36),
+              const SizedBox(height: 8),
+              Text(
+                title,
+                style: const TextStyle(
+                  color: Colors.white,
+                  fontSize: 14,
+                  fontWeight: FontWeight.w500,
+                ),
+              )
+            ],
+          ),
+        ),
+      ),
     );
   }
 
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      child: SafeArea(
-        child: Column(
-          children: [
-            DrawerHeader(
+      child: Column(
+        children: [
+          // Header
+          Expanded(
+            flex: 2,
+            child: Container(
+              width: double.infinity,
+              decoration: const BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [Color(0xFF65C3BA), Color(0xFF2F80ED)],
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                ),
+              ),
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Image.asset(
-                    'assets/images/logo.png',
-                    width: 135,
-                    height: 135,
-                    fit: BoxFit.cover,
-                  ),
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: const [
+                  Icon(Icons.account_circle, color: Colors.white, size: 48),
+                  SizedBox(height: 10),
+                  Text(
+                    'Nama Perusahaan',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  )
                 ],
               ),
             ),
-            buildDrawerItem(Icons.inventory, "Manajemen", () {
-              Navigator.pushNamed(context, '/manajemen');
-            }),
-            buildDrawerItem(Icons.shopping_cart, "Transaksi", () {
-              Navigator.pushNamed(context, '/transaksi');
-            }),
-            buildDrawerItem(Icons.receipt, "Laporan", () {
-              Navigator.pushNamed(context, '/laporan');
-            }),
-            buildDrawerItem(Icons.settings, "Pengaturan", () {
-              Navigator.pushNamed(context, '/pengaturan');
-            }),
-          ],
-        ),
+          ),
+          // Menu Items
+          buildDrawerItem(Icons.inventory_2_outlined, "Manajemen", () {
+            Navigator.pushNamed(context, '/manajemen');
+          }),
+          buildDrawerItem(Icons.shopping_cart, "Transaksi", () {
+            Navigator.pushNamed(context, '/transaksi');
+          }),
+          buildDrawerItem(Icons.receipt_long_outlined, "Laporan", () {
+            Navigator.pushNamed(context, '/laporan');
+          }),
+          buildDrawerItem(Icons.settings_outlined, "Pengaturan", () {
+            Navigator.pushNamed(context, '/pengaturan');
+          }),
+          buildDrawerItem(Icons.phone_in_talk_outlined, "Bantuan", () {
+            Navigator.pushNamed(context, '/bantuan');
+          }),
+        ],
       ),
     );
   }
