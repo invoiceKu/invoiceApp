@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Andre\\pribadi\\project\\invoice\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sk\\values-sk.xml",
+            "outputFile": "C:\\Andre\\pribadi\\project\\invoiceApp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sk\\values-sk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\KaspinQA\\.gradle\\caches\\transforms-3\\c9ed4f21dd2917ca9207dafc0b5b3c63\\transformed\\core-1.6.0\\res\\values-sk\\values-sk.xml",

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 application
-INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:49:5-118:19
+INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:49:5-118:19
 MERGED from [com.google.firebase:firebase-analytics:19.0.0] C:\Users\KaspinQA\.gradle\caches\transforms-3\111925d4f4746785cfd3ee639ea7c44c\transformed\jetified-firebase-analytics-19.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:19.0.0] C:\Users\KaspinQA\.gradle\caches\transforms-3\111925d4f4746785cfd3ee639ea7c44c\transformed\jetified-firebase-analytics-19.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-crashlytics:18.0.0] C:\Users\KaspinQA\.gradle\caches\transforms-3\116769e1d4f57b7c38f0afd7474b220e\transformed\jetified-firebase-crashlytics-18.0.0\AndroidManifest.xml:14:5-22:19
@@ -54,14 +54,14 @@ MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\KaspinQA\.gradle\caches\
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] C:\Users\KaspinQA\.gradle\caches\transforms-3\c9ed4f21dd2917ca9207dafc0b5b3c63\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 	android:name
-		INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:1:1-119:12
-INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:1:1-119:12
-INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:1:1-119:12
-INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:1:1-119:12
-MERGED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:1:1-119:12
-MERGED from [:sqflite] C:\Andre\pribadi\project\invoice\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:1:1-119:12
+INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:1:1-119:12
+INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:1:1-119:12
+INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:1:1-119:12
+MERGED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:1:1-119:12
+MERGED from [:sqflite] C:\Andre\pribadi\project\invoiceApp\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-analytics:19.0.0] C:\Users\KaspinQA\.gradle\caches\transforms-3\111925d4f4746785cfd3ee639ea7c44c\transformed\jetified-firebase-analytics-19.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-crashlytics:18.0.0] C:\Users\KaspinQA\.gradle\caches\transforms-3\116769e1d4f57b7c38f0afd7474b220e\transformed\jetified-firebase-crashlytics-18.0.0\AndroidManifest.xml:2:1-24:12
 MERGED from [androidx.work:work-runtime-ktx:2.7.1] C:\Users\KaspinQA\.gradle\caches\transforms-3\f684225cbd7542ad7aa4fe1cd131042c\transformed\work-runtime-ktx-2.7.1\AndroidManifest.xml:17:1-24:12
@@ -116,55 +116,55 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\KaspinQA\.gradle\caches\transforms-3\5f916d6aaefa702ff213b3c509211811\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\KaspinQA\.gradle\caches\transforms-3\6f665913b735cf5869f99b9d471c206f\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\KaspinQA\.gradle\caches\transforms-3\e680e7fc18a9901cd834062a28a5c785\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\debug\AndroidManifest.xml:1:1-13:12
-INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\debug\AndroidManifest.xml:1:1-13:12
-INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\debug\AndroidManifest.xml:1:1-13:12
+INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\debug\AndroidManifest.xml:1:1-13:12
+INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\debug\AndroidManifest.xml:1:1-13:12
+INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\debug\AndroidManifest.xml:1:1-13:12
 	package
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:2:5-36
-		INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\debug\AndroidManifest.xml
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:2:5-36
+		INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:1:1-119:12
-		INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:1:1-119:12
+		INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:1:1-119:12
-		INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:1:1-119:12
+		INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.MANAGE_USB
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:8:5-69
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:8:5-69
 	android:name
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:8:22-66
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:8:22-66
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:9:5-80
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:9:5-80
 	android:name
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:9:22-77
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:9:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:10:5-11:38
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:10:5-11:38
 	android:maxSdkVersion
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:11:9-35
 	android:name
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:10:22-78
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:10:22-78
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:12:5-77
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:12:5-77
 MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\KaspinQA\.gradle\caches\transforms-3\9c6b779ee6ea50d7d7cbca54a5acfc0e\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
 MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\KaspinQA\.gradle\caches\transforms-3\9c6b779ee6ea50d7d7cbca54a5acfc0e\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
 	android:name
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:12:22-74
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:12:22-74
 uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:13:5-84
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:13:5-84
 	android:name
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:13:22-82
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:13:22-82
 uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:14:5-82
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:14:5-82
 	android:name
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:14:22-79
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:14:22-79
 uses-permission#android.permission.INTERNET
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:15:5-67
-MERGED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:15:5-67
-MERGED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:15:5-67
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:15:5-67
+MERGED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:15:5-67
+MERGED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:15:5-67
 MERGED from [com.google.firebase:firebase-crashlytics:18.0.0] C:\Users\KaspinQA\.gradle\caches\transforms-3\116769e1d4f57b7c38f0afd7474b220e\transformed\jetified-firebase-crashlytics-18.0.0\AndroidManifest.xml:10:5-67
 MERGED from [com.google.firebase:firebase-crashlytics:18.0.0] C:\Users\KaspinQA\.gradle\caches\transforms-3\116769e1d4f57b7c38f0afd7474b220e\transformed\jetified-firebase-crashlytics-18.0.0\AndroidManifest.xml:10:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\KaspinQA\.gradle\caches\transforms-3\705e3ae94d1c2837490d43cffb462941\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:26:5-67
@@ -182,91 +182,91 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] C:\Users\KaspinQA\.gradle\caches\transforms-3\11346b07de13f4a17e25b765ba8c9470\transformed\jetified-play-services-measurement-sdk-api-19.0.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] C:\Users\KaspinQA\.gradle\caches\transforms-3\11346b07de13f4a17e25b765ba8c9470\transformed\jetified-play-services-measurement-sdk-api-19.0.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:15:22-64
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:15:22-64
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:16:5-68
-MERGED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:16:5-68
-MERGED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:16:5-68
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:16:5-68
+MERGED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:16:5-68
+MERGED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:16:5-68
 	android:name
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:16:22-65
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:16:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:17:5-74
-MERGED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:17:5-74
-MERGED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:17:5-74
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:17:5-74
+MERGED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:17:5-74
+MERGED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:17:5-74
 	android:name
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:17:22-71
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:17:22-71
 uses-permission#android.permission.BLUETOOTH_SCAN
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:18:5-73
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:18:5-73
 	android:name
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:18:22-70
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:18:22-70
 uses-permission#android.permission.BLUETOOTH_ADVERTISE
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:19:5-78
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:19:22-75
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:19:22-75
 uses-permission#android.permission.BLUETOOTH_CONNECT
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:20:5-76
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:20:5-76
 	android:name
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:20:22-73
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:20:22-73
 uses-feature#android.hardware.bluetooth
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:21:5-86
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:21:5-86
 	android:required
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:21:61-84
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:21:61-84
 	android:name
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:21:19-60
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:21:19-60
 uses-feature#android.hardware.bluetooth_le
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:22:5-89
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:22:5-89
 	android:required
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:22:64-87
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:22:64-87
 	android:name
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:22:19-63
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:22:19-63
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:23:5-80
-MERGED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:23:5-80
-MERGED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:23:5-80
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:23:5-80
+MERGED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:23:5-80
+MERGED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:23:5-80
 	android:name
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:23:22-78
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:23:22-78
 uses-permission#android.permission.READ_CONTACTS
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:24:5-72
-MERGED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:24:5-72
-MERGED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:24:5-72
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:24:5-72
+MERGED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:24:5-72
+MERGED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:24:5-72
 	android:name
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:24:22-69
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:24:22-69
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:25:5-80
-MERGED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:25:5-80
-MERGED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:25:5-80
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:25:5-80
+MERGED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:25:5-80
+MERGED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:25:5-80
 MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\KaspinQA\.gradle\caches\transforms-3\9c6b779ee6ea50d7d7cbca54a5acfc0e\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
 MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\KaspinQA\.gradle\caches\transforms-3\9c6b779ee6ea50d7d7cbca54a5acfc0e\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
 	android:name
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:25:22-78
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:25:22-78
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:26:5-66
-MERGED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:26:5-66
-MERGED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:26:5-66
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:26:5-66
+MERGED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:26:5-66
+MERGED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:26:5-66
 	android:name
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:26:22-63
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:26:22-63
 queries
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:28:5-47:15
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:28:5-47:15
 intent#action:name:android.intent.action.VIEW+data:scheme:sms
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:30:9-33:18
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:30:9-33:18
 action#android.intent.action.VIEW
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:31:13-65
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:31:13-65
 	android:name
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:31:21-62
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:31:21-62
 data
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:32:13-42
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:32:13-42
 	android:scheme
-		ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:32:19-39
+		ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:32:19-39
 intent#action:name:android.intent.action.VIEW+data:scheme:tel
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:35:9-38:18
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:35:9-38:18
 intent#action:name:android.intent.action.VIEW+data:scheme:https
-ADDED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:42:9-45:18
+ADDED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:42:9-45:18
 uses-sdk
-INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml
-MERGED from [:sqflite] C:\Andre\pribadi\project\invoice\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:sqflite] C:\Andre\pribadi\project\invoice\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml
+MERGED from [:sqflite] C:\Andre\pribadi\project\invoiceApp\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] C:\Andre\pribadi\project\invoiceApp\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:19.0.0] C:\Users\KaspinQA\.gradle\caches\transforms-3\111925d4f4746785cfd3ee639ea7c44c\transformed\jetified-firebase-analytics-19.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:19.0.0] C:\Users\KaspinQA\.gradle\caches\transforms-3\111925d4f4746785cfd3ee639ea7c44c\transformed\jetified-firebase-analytics-19.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-crashlytics:18.0.0] C:\Users\KaspinQA\.gradle\caches\transforms-3\116769e1d4f57b7c38f0afd7474b220e\transformed\jetified-firebase-crashlytics-18.0.0\AndroidManifest.xml:6:5-8:41
@@ -375,14 +375,14 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\KaspinQA\.gr
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\KaspinQA\.gradle\caches\transforms-3\6f665913b735cf5869f99b9d471c206f\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\KaspinQA\.gradle\caches\transforms-3\e680e7fc18a9901cd834062a28a5c785\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\KaspinQA\.gradle\caches\transforms-3\e680e7fc18a9901cd834062a28a5c785\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\debug\AndroidManifest.xml
-INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Andre\pribadi\project\invoice\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Andre\pribadi\project\invoiceApp\android\app\src\debug\AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-crashlytics:18.0.0] C:\Users\KaspinQA\.gradle\caches\transforms-3\116769e1d4f57b7c38f0afd7474b220e\transformed\jetified-firebase-crashlytics-18.0.0\AndroidManifest.xml:15:9-21:19
 MERGED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\KaspinQA\.gradle\caches\transforms-3\59527864cb5d40a7f80b308ab4f12981\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:49:9-55:19

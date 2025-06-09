@@ -11,35 +11,81 @@ class ManajemenPage extends StatelessWidget {
       drawer: const mySideBar(),
       appBar: AppBar(
         title: const Text('Manajemen'),
-        backgroundColor: Colors.blue[400],
+        centerTitle: true,
+        backgroundColor: Colors.transparent,
+        flexibleSpace: Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              colors: [Color(0xFF58D3D3), Color(0xFFB6F0DA)],
+              begin: Alignment.centerLeft,
+              end: Alignment.centerRight,
+            ),
+          ),
+        ),
+        iconTheme: const IconThemeData(color: Colors.white),
+        titleTextStyle: const TextStyle(
+          color: Colors.white,
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
       ),
-      body: ListView(
+      body: Column(
         children: [
-          ListTile(
-            leading: const Icon(Icons.inventory_2_outlined),
-            title: const Text('Data Barang'),
-            onTap: () {
-              Navigator.pushNamed(context, '/barang');
-            },
+          _buildMenuTile(
+            icon: Icons.inventory_2_outlined,
+            label: 'Data Barang',
+            onTap: () => Navigator.pushNamed(context, '/barang'),
           ),
-          ListTile(
-            leading: const Icon(Icons.category_outlined),
-            title: const Text('Data Kategori'),
-            onTap: () {
-              Navigator.pushNamed(context, '/kategori');
-            },
+          _buildMenuTile(
+            icon: Icons.category_outlined,
+            label: 'Data Kategori',
+            onTap: () => Navigator.pushNamed(context, '/kategori'),
           ),
-          ListTile(
-            leading: const Icon(Icons.person_outline),
-            title: const Text('Data Pelanggan'),
-            selected: true,
-            selectedTileColor: Colors.blue[100],
-            onTap: () {
-              Navigator.pushNamed(context, '/pelanggan');
-            },
+          _buildMenuTile(
+            icon: Icons.person_outline,
+            label: 'Data Pelanggan',
+            onTap: () => Navigator.pushNamed(context, '/pelanggan'),
           ),
         ],
       ),
+    );
+  }
+
+  Widget _buildMenuTile({
+    required IconData icon,
+    required String label,
+    required VoidCallback onTap,
+  }) {
+    return Column(
+      children: [
+        InkWell(
+          onTap: onTap,
+          child: Container(
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+            child: Row(
+              children: [
+                Container(
+                  padding: const EdgeInsets.all(6),
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Colors.black),
+                    borderRadius: BorderRadius.circular(4),
+                  ),
+                  child: Icon(icon, color: Colors.black),
+                ),
+                const SizedBox(width: 16),
+                Text(
+                  label,
+                  style: const TextStyle(
+                    fontSize: 16,
+                    color: Colors.black,
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+        const Divider(height: 1),
+      ],
     );
   }
 }

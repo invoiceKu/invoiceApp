@@ -12,26 +12,26 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:15:5-67
-14-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:15:22-64
+14-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:15:5-67
+14-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:15:22-64
 15    <uses-permission android:name="android.permission.BLUETOOTH" />
-15-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:16:5-68
-15-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:16:22-65
+15-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:16:5-68
+15-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:16:22-65
 16    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-16-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:17:5-74
-16-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:17:22-71
+16-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:17:5-74
+16-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:17:22-71
 17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-17-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:23:5-80
-17-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:23:22-78
+17-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:23:5-80
+17-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:23:22-78
 18    <uses-permission android:name="android.permission.READ_CONTACTS" />
-18-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:24:5-72
-18-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:24:22-69
+18-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:24:5-72
+18-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:24:22-69
 19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-19-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:25:5-80
-19-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:25:22-78
+19-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:25:5-80
+19-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:25:22-78
 20    <uses-permission android:name="android.permission.VIBRATE" />
-20-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:26:5-66
-20-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:26:22-63
+20-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:26:5-66
+20-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:26:22-63
 21    <!--
 22     io.flutter.app.FlutterApplication is an android.app.Application that
 23         calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -40,73 +40,73 @@
 26         FlutterApplication and put your custom class here.
 27    -->
 28    <uses-permission android:name="android.permission.MANAGE_USB" />
-28-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:8:5-69
-28-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:8:22-66
+28-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:8:5-69
+28-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:8:22-66
 29    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-29-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:9:5-80
-29-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:9:22-77
+29-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:9:5-80
+29-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:9:22-77
 30    <uses-permission
-30-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:10:5-11:38
+30-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:10:5-11:38
 31        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-31-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:10:22-78
+31-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:10:22-78
 32        android:maxSdkVersion="28" />
-32-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:11:9-35
+32-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:11:9-35
 33    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-33-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:12:5-77
-33-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:12:22-74
+33-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:12:5-77
+33-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:12:22-74
 34    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-34-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:13:5-84
-34-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:13:22-82
+34-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:13:5-84
+34-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:13:22-82
 35    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
-35-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:14:5-82
-35-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:14:22-79
+35-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:14:5-82
+35-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:14:22-79
 36    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
-36-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:18:5-73
-36-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:18:22-70
+36-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:18:5-73
+36-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:18:22-70
 37    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
-37-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:19:5-78
-37-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:19:22-75
+37-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:19:5-78
+37-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:19:22-75
 38    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-38-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:20:5-76
-38-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:20:22-73
+38-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:20:5-76
+38-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:20:22-73
 39
 40    <uses-feature
-40-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:21:5-86
+40-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:21:5-86
 41        android:name="android.hardware.bluetooth"
-41-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:21:19-60
+41-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:21:19-60
 42        android:required="true" />
-42-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:21:61-84
+42-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:21:61-84
 43    <uses-feature
-43-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:22:5-89
+43-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:22:5-89
 44        android:name="android.hardware.bluetooth_le"
-44-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:22:19-63
+44-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:22:19-63
 45        android:required="true" />
-45-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:22:64-87
+45-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:22:64-87
 46
 47    <queries>
-47-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:28:5-47:15
+47-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:28:5-47:15
 48
 49        <!-- If your app checks for SMS support -->
 50        <intent>
-50-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:30:9-33:18
+50-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:30:9-33:18
 51            <action android:name="android.intent.action.VIEW" />
-51-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:31:13-65
-51-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:31:21-62
+51-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:31:13-65
+51-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:31:21-62
 52
 53            <data android:scheme="sms" />
-53-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:32:13-42
-53-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:32:19-39
+53-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:32:13-42
+53-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:32:19-39
 54        </intent>
 55        <!-- If your app checks for call support -->
 56        <intent>
-56-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:35:9-38:18
+56-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:35:9-38:18
 57            <action android:name="android.intent.action.VIEW" />
-57-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:31:13-65
-57-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:31:21-62
+57-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:31:13-65
+57-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:31:21-62
 58
 59            <data android:scheme="tel" />
-59-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:32:13-42
-59-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:32:19-39
+59-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:32:13-42
+59-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:32:19-39
 60        </intent>
 61        <!-- #enddocregion android-queries -->
 62        <!--
@@ -114,14 +114,14 @@
 64             It shouldn't be needed in most actual apps, or show up in the README!
 65        -->
 66        <intent>
-66-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:42:9-45:18
+66-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:42:9-45:18
 67            <action android:name="android.intent.action.VIEW" />
-67-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:31:13-65
-67-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:31:21-62
+67-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:31:13-65
+67-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:31:21-62
 68
 69            <data android:scheme="https" />
-69-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:32:13-42
-69-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:32:19-39
+69-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:32:13-42
+69-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:32:19-39
 70        </intent>
 71        <!-- #docregion android-queries -->
 72    </queries>
@@ -209,9 +209,9 @@
 145            </intent-filter>
 146            <intent-filter>
 147                <action
-147-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:31:13-65
+147-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:31:13-65
 148                    android:name="android.intent.action.VIEW"
-148-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:31:21-62
+148-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:31:21-62
 149                    android:exported="true" />
 150
 151                <category
@@ -222,17 +222,17 @@
 156                    android:exported="true" />
 157
 158                <data
-158-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:32:13-42
+158-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:32:13-42
 159                    android:exported="true"
 160                    android:scheme="http" />
-160-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:32:19-39
+160-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:32:19-39
 161                <data
-161-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:32:13-42
+161-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:32:13-42
 162                    android:exported="true"
 163                    android:scheme="https" />
-163-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:32:19-39
+163-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:32:19-39
 164                <data
-164-->C:\Andre\pribadi\project\invoice\android\app\src\main\AndroidManifest.xml:32:13-42
+164-->C:\Andre\pribadi\project\invoiceApp\android\app\src\main\AndroidManifest.xml:32:13-42
 165                    android:exported="true"
 166                    android:host="kasirpintarpro.page.link" />
 167            </intent-filter>

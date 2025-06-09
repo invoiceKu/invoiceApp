@@ -10,10 +10,9 @@ class mySideBar extends StatelessWidget {
         child: Container(
           width: double.infinity,
           decoration: const BoxDecoration(
-            gradient: LinearGradient(
-              colors: [Color(0xFF65C3BA), Color(0xFF2F80ED)],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
+            image: DecorationImage(
+              image: AssetImage('assets/images/BgSidebar.png'),
+              fit: BoxFit.cover,
             ),
           ),
           child: Column(
@@ -36,6 +35,7 @@ class mySideBar extends StatelessWidget {
     );
   }
 
+
   @override
   Widget build(BuildContext context) {
     return Drawer(
@@ -47,10 +47,9 @@ class mySideBar extends StatelessWidget {
             child: Container(
               width: double.infinity,
               decoration: const BoxDecoration(
-                gradient: LinearGradient(
-                  colors: [Color(0xFF65C3BA), Color(0xFF2F80ED)],
-                  begin: Alignment.topLeft,
-                  end: Alignment.bottomRight,
+                image: DecorationImage(
+                  image: AssetImage('assets/images/BgSidebar.png'),
+                  fit: BoxFit.cover,
                 ),
               ),
               child: Column(
