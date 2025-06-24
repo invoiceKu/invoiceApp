@@ -41,11 +41,11 @@ class ManajemenPage extends StatelessWidget {
             label: 'Data Kategori',
             onTap: () => Navigator.pushNamed(context, '/kategori'),
           ),
-          _buildMenuTile(
-            icon: Icons.person_outline,
-            label: 'Data Pelanggan',
-            onTap: () => Navigator.pushNamed(context, '/pelanggan'),
-          ),
+          // _buildMenuTile(
+          //   icon: Icons.person_outline,
+          //   label: 'Data Pelanggan',
+          //   onTap: () => Navigator.pushNamed(context, '/pelanggan'),
+          // ),
         ],
       ),
     );

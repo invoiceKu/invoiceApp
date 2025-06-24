@@ -23,7 +23,7 @@ class DBHelper{
     return await openDatabase(
         path, version: 1,
         onCreate: (db, version) async{
-      await db.execute('''CREATE TABLE barang(id INTEGER PRIMARY KEY AUTOINCREMENT, nama_barang TEXT, kode_barang TEXT, harga_jual DOUBLE, kategori TEXT)''');
+      await db.execute('''CREATE TABLE barang(id INTEGER PRIMARY KEY AUTOINCREMENT, nama_barang TEXT, kode_barang TEXT, harga_jual DOUBLE, kategori TEXT, tipe_barang TEXT, tipe_stok TEXT)''');
       await db.execute('''CREATE TABLE kategori(id_kategori INTEGER PRIMARY KEY AUTOINCREMENT, nama_kategori TEXT)''');
     }
     );
@@ -48,6 +48,17 @@ class DBHelper{
     final db = await database;
     return await db.delete('barang', where: 'id = ?', whereArgs: [id]);
   }
+
+  Future<bool> isKodeBarangExist(String kodeBarang, {int? excludeId}) async {
+    final db = await database;
+    final List<Map<String, dynamic>> result = await db.query(
+      'barang',
+      where: 'kode_barang = ? AND id != ?',
+      whereArgs: [kodeBarang, excludeId ?? -1],
+    );
+    return result.isNotEmpty;
+  }
+
 
   Future<int> insertKategori(Kategori kategori) async{
     final db =await database;

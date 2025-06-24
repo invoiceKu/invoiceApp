@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:invoice/models/kategori.dart';
 
 import '../../helpers/db_helper.dart';
 import '../../models/barang.dart';
 import '../sidebar/mySideBar.dart';
-
 
 class BarangPage extends StatefulWidget {
   @override
@@ -15,10 +15,14 @@ class _BarangPageState extends State<BarangPage> {
   final _formKey = GlobalKey<FormState>();
 
   List<Barang> barangList = [];
+  List<Kategori> kategoriList = [];
+
   final _namaController = TextEditingController();
   final _kodeController = TextEditingController();
   final _hargaController = TextEditingController();
-  final _kategoriController = TextEditingController();
+  final _tipeBarangController = TextEditingController();
+  final _tipeStokController = TextEditingController();
+  Kategori? _pilihKategori;
 
   int? selectedId;
 
@@ -26,6 +30,14 @@ class _BarangPageState extends State<BarangPage> {
   void initState() {
     super.initState();
     _refreshBarangList();
+    _loadKategoriList();
+  }
+
+  void _loadKategoriList() async {
+    final data = await dbHelper.getKategoriList();
+    setState(() {
+      kategoriList = data;
+    });
   }
 
   void _refreshBarangList() async {
@@ -40,18 +52,35 @@ class _BarangPageState extends State<BarangPage> {
     _namaController.clear();
     _kodeController.clear();
     _hargaController.clear();
-    _kategoriController.clear();
+    _tipeBarangController.clear();
+    _tipeStokController.clear();
+    _pilihKategori = null;
     selectedId = null;
   }
 
   void _saveData() async {
     if (_formKey.currentState!.validate()) {
+      // Cek apakah kode_barang sudah ada di database (selain dari barang yang sedang diedit)
+      bool isExist = await dbHelper.isKodeBarangExist(
+        _kodeController.text.toLowerCase(),
+        excludeId: selectedId,
+      );
+
+      if (isExist) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('Kode barang sudah digunakan!')),
+        );
+        return; // Hentikan proses simpan
+      }
+
       final barang = Barang(
         id: selectedId,
         nama_barang: _namaController.text,
         kode_barang: _kodeController.text,
         harga_jual: double.parse(_hargaController.text),
-        kategori: _kategoriController.text,
+        kategori: _pilihKategori?.nama_kategori ?? '',
+        tipe_barang: 'default',
+        tipe_stok: 'unlimited',
       );
 
       if (selectedId == null) {
@@ -72,21 +101,16 @@ class _BarangPageState extends State<BarangPage> {
     _refreshBarangList();
   }
 
-  void _editData(Barang barang) {
-    _namaController.text = barang.nama_barang;
-    _kodeController.text = barang.kode_barang;
-    _hargaController.text = barang.harga_jual.toString();
-    _kategoriController.text = barang.kategori;
-    selectedId = barang.id;
-  }
-
-  Widget buildDrawerItem(IconData icon, String title, VoidCallback onTap) {
-    return ListTile(
-      leading: Icon(icon),
-      title: Text(title),
-      onTap: onTap,
-    );
-  }
+  // void _editData(Barang barang) {
+  //   _namaController.text = barang.nama_barang;
+  //   _kodeController.text = barang.kode_barang;
+  //   _hargaController.text = barang.harga_jual.toString();
+  //   _pilihKategori = kategoriList.firstWhere(
+  //         (kategori) => kategori.nama_kategori == barang.kategori,
+  //     orElse: () => Kategori(id: 0, nama_kategori: 'Tidak diketahui'),
+  //   );
+  //   selectedId = barang.id;
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -96,9 +120,9 @@ class _BarangPageState extends State<BarangPage> {
         title: Text('Tambah Barang'),
         leading: Builder(
           builder: (context) => IconButton(
-            icon: Icon(Icons.menu),
-            onPressed: () {
-              Scaffold.of(context).openDrawer();
+            icon: Icon(Icons.arrow_back),
+            onPressed: (){
+              Navigator.pushNamed(context, '/manajemen');
             },
           ),
         ),
@@ -126,15 +150,29 @@ class _BarangPageState extends State<BarangPage> {
                   decoration: InputDecoration(labelText: 'Harga Barang'),
                   validator: (value) => value!.isEmpty ? 'Wajib diisi' : null,
                 ),
-                TextFormField(
-                  controller: _kategoriController,
-                  decoration: InputDecoration(labelText: 'Kategori'),
-                  validator: (value) => value!.isEmpty ? 'Wajib diisi' : null,
+                DropdownButtonFormField<Kategori>(
+                  value: _pilihKategori,
+                  decoration: InputDecoration(
+                    labelText: 'Kategori',
+                    border: OutlineInputBorder(),
+                  ),
+                  items: kategoriList.map((Kategori category) {
+                    return DropdownMenuItem<Kategori>(
+                      value: category,
+                      child: Text(category.nama_kategori),
+                    );
+                  }).toList(),
+                  onChanged: (Kategori? newValue) {
+                    setState(() {
+                      _pilihKategori = newValue;
+                    });
+                  },
                 ),
+                SizedBox(height: 10),
                 ElevatedButton(
                   onPressed: _saveData,
                   child: Text(selectedId == null ? 'Tambah' : 'Update'),
-                )
+                ),
               ]),
             ),
             SizedBox(height: 20),
@@ -151,7 +189,7 @@ class _BarangPageState extends State<BarangPage> {
                       children: [
                         IconButton(
                           icon: Icon(Icons.edit),
-                          onPressed: () => _editData(item),
+                          onPressed: () => print("_editData(item)"),
                         ),
                         IconButton(
                           icon: Icon(Icons.delete),
@@ -162,7 +200,7 @@ class _BarangPageState extends State<BarangPage> {
                   );
                 },
               ),
-            )
+            ),
           ],
         ),
       ),
